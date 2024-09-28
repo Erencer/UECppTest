@@ -7,8 +7,10 @@
 // Sets default values
 AMoyeClassActor::AMoyeClassActor()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = false;
+
+	//创建并设置场景组件为根组件
+	SetRootComponent(CreateDefaultSubobject<USceneComponent>(TEXT("MoyeClassActorRoot")));
 
 }
 
