@@ -23,6 +23,17 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	
+public:
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "MoyeClass")
+	int32 Money = 100;
+
+	UFUNCTION(BlueprintCallable, Category = "MoyeClass")
+	FORCEINLINE int32 GetMoney();
+
+	UFUNCTION(BlueprintCallable, Category = "MoyeClass")
+	FORCEINLINE void SetMoney();
+
+	UFUNCTION(BlueprintCallable, Category = "MoyeClass")
+	FORCEINLINE int32 GetCDOMoney();
 	
 };
