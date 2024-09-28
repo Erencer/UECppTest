@@ -1,0 +1,9 @@
+#UE projBase
+.vs/
+.vsconfig
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+*.sln

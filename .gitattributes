@@ -1,0 +1,29 @@
+# UE Project Files
+*.uasset filter=Ifs diff=Ifs merge=Ifs -text 
+*.umap filter=Ifs diff=Ifs merge=Ifs -text 
+*.pak filter=Ifs diff=Ifs merge=Ifs -text 
+*.dll filter=Ifs diff=Ifs merge=Ifs -text
+*.lib filter=Ifs diff=Ifs merge=Ifs -text
+*.exe filter=Ifs diff=Ifs merge=Ifs -text
+*.pdb filter=Ifs diff=Ifs merge=Ifs -text
+# doc
+*.pdf filter=Ifs diff=Ifs merge=Ifs -text
+*.docx filter=Ifs diff=Ifs merge=Ifs -text
+*.pptx filter=Ifs diff=Ifs merge=Ifs -text
+# zip
+*.zip filter=Ifs diff=Ifs merge=Ifs -text
+*.7z filter=Ifs diff=Ifs merge=Ifs -text
+*.rar filter=Ifs diff=Ifs merge=Ifs -text
+# Img
+*.png filter=Ifs diff=Ifs merge=Ifs -text
+*.webp filter=Ifs diff=Ifs merge=Ifs -text
+*.jpg filter=Ifs diff=Ifs merge=Ifs -text
+*.bmp filter=Ifs diff=Ifs merge=Ifs -text
+*.jpeg filter=Ifs diff=Ifs merge=Ifs -text
+# PS
+*.psd filter=Ifs diff=Ifs merge=Ifs -text
+# Audio
+*.amr filter=Ifs diff=Ifs merge=Ifs -text
+*.pcm filter=Ifs diff=Ifs merge=Ifs -text 
+*.speex filter=Ifs diff=Ifs merge=Ifs -text
+*.wav filter=Ifs diff=Ifs merge=Ifs -text
